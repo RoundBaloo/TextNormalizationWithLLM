@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Data/cache/output
+*.sqlite3
+*.db
+*.h5
+*.pth
+*.ckpt
+
+# Model files
+*.bin
+*.pt
+*.onnx
+
+# Environment files
+.env
+.env.*
+
+# Pip wheel files
+*.whl
+
+# Test output
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# System files
+*.sublime-workspace
+*.sublime-project
+
+# Git files
+.git/
+
+# Large models and weights
+merged_model/
+llama_model/
+*.safetensors
+
+# Data files
+*.xlsx
+*.csv
+*.tsv
+
+# Automatically generated json files
+!examples_store.json
+
+# New dataset file
+!dataset_generated_new.xlsx
